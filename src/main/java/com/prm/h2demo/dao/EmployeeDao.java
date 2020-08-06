@@ -9,9 +9,6 @@ public class EmployeeDao {
 	public int saveEmployee(Employee empObj) {
 		
 		
-		//empObj.setName(empObj.getName());
-		
-		
 		if (empObj.getExperience() > 0 && empObj.getExperience() < 5) {
 					
 			empObj.setSalary(500000.00);		
